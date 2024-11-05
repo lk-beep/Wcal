@@ -9,11 +9,11 @@
 
         // tarkista onko kirjaimet painettu
         if (requiredKeys.size === pressedKeys.size && [...requiredKeys].every(k => pressedKeys.has(k))) {
-            document.getElementById('displayed-image').style.display = 'block';
+            document.getElementById('hidden-image').style.display = 'block';
         }
     });
 
     document.addEventListener('keyup', (event) => {
         pressedKeys.delete(event.key.toUpperCase());
-        document.getElementById('displayed-image').style.display = 'none';
+        document.getElementById('hidden-image').style.display = 'none';
     });
