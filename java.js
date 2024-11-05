@@ -21,7 +21,7 @@ function catimg(){
             imgElement.alt = "kissa";
 
             const breedInfoElement = document.createElement("p");
-            breedInfoElement.textContent = `Laji: ${breedInfo}`;
+            breedInfoElement.textContent = `Rotu: ${breedInfo}`;
 
             document.body.appendChild(imgElement);
             document.body.appendChild(breedInfoElement);
