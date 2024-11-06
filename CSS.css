@@ -1,0 +1,58 @@
+body {
+    background-color: #B5838D; 
+    font-family: 'Courier New', Courier, monospace; 
+    color: #2f2d32; 
+    margin: 0;
+    padding: 0;
+}
+
+.smull {
+    color: #6a0101; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+
+.Questionnare_box_center {
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+}
+
+
+header {
+    font-family: 'Courier New', Courier, monospace; 
+    color: #2f2d32; 
+    padding: 10px;
+    text-align: center;
+}
+
+
+.fucking_pictures_of_cats_left {
+    float: left; 
+    margin-right: 20px; 
+    text-align: left; 
+}
+
+
+img {
+    width: 20%; 
+    height: auto; 
+}
+
+
+.baby_liquid_and_honorable_mentions_right {
+    float: right;
+    margin-left: 20px; 
+    text-align: right; 
+}
+
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+    float: right;
+    border-color: black;
+    border-style: double;
+    background-color: rgb(0, 67, 67);
+    color: rgb(255, 255, 255);
+}
