@@ -1,48 +1,65 @@
+
 body {
-    background-color: #B5838D; 
-    font-family: 'Courier New', Courier, monospace; 
-    color: #2f2d32; 
+    background-color: #B5838D;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2f2d32;
     margin: 0;
     padding: 0;
 }
 
-.smull {
-    color: #6a0101; 
-    font-family: Georgia, 'Times New Roman', Times, serif; 
+header {
+    background-color: #6D6875;
+    color: #FFCDB2;
+    padding: 15px;
+    text-align: center;
 }
 
+
+header .sivulink {
+    color: #FFCDB2;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header .sivulink:hover {
+    color: #FFB4A2;
+}
+
+button {
+    background-color: #E5989B;
+    border: none;
+    padding: 10px 20px;
+    color: #2f2d32;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #FFB4A2;
+}
+
+p {
+    font-family: 'Georgia', serif;
+    margin: 10px 20px;
+}
+
+.smull {
+    color: #6a0101;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .Questionnare_box_center {
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
-
-
-header {
-    font-family: 'Courier New', Courier, monospace; 
-    color: #2f2d32; 
-    padding: 10px;
-    text-align: center;
-}
-
-
-.fucking_pictures_of_cats_left {
-    float: left; 
-    margin-right: 20px; 
-    text-align: left; 
-}
-
 
 img {
-    width: 20%; 
-    height: auto; 
-}
-
-
-.baby_liquid_and_honorable_mentions_right {
-    float: right;
-    margin-left: 20px; 
-    text-align: right; 
+    width: 20%;
+    height: auto;
+    margin: 10px;
 }
 
 
@@ -54,5 +71,18 @@ footer {
     border-color: black;
     border-style: double;
     background-color: rgb(0, 67, 67);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 152, 152);
+}
+
+
+.fucking_pictures_of_cats_left {
+    float: left;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.baby_liquid_and_honorable_mentions_right {
+    float: right;
+    margin-left: 20px;
+    text-align: right;
 }
