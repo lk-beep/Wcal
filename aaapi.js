@@ -3,14 +3,12 @@ function catfact() {
         "Content-Type": "application/json",
         "x-api-key": "DEMO-API-KEY"
     });
-
     const requestOptions = {
         method: 'GET',
         headers: headers,
         redirect: 'follow'
     };
     const pas = document.querySelectorAll("p");
-
     pas.forEach((p, index) => {
         fetch("https://catfact.ninja/fact?max_length=140", requestOptions)
             .then(response => response.json())
