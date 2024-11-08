@@ -86,3 +86,6 @@ footer {
     margin-left: 20px;
     text-align: right;
 }
+.bold {
+    font-weight: bold;
+}
