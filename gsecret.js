@@ -9,7 +9,7 @@ document.addEventListener('keydown', (event) => {
 
     // tarkista onko kirjaimet painettu
     if (requiredKeys.size === pressedKeys.size && [...requiredKeys].every(k => pressedKeys.has(k))) {
-        window.location.href = 'gam.html'; // Redirect to gam.html
+        window.location.href = 'gam.html'; // vaihda sivusto gam.htmlään
     }
 });
 
