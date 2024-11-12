@@ -1,95 +1,108 @@
-
+/* Basic styling for the body */
 body {
-    background-color: #B5838D;
-    font-family: 'Courier New', Courier, monospace;
-    color: #2f2d32;
-    margin: 0;
-    padding: 0;
+    background-color: #B5838D; /* Light mauve background color */
+    font-family: 'Courier New', Courier, monospace; /* Monospaced font for body text */
+    color: #2f2d32; /* Darker gray for text color */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
 }
 
+/* Header styling */
 header {
-    background-color: #6D6875;
-    color: #FFCDB2;
-    padding: 15px;
-    text-align: center;
+    background-color: #6D6875; /* Dark mauve for header background */
+    color: #FFCDB2; /* Light peach for header text */
+    padding: 15px; /* Space inside the header */
+    text-align: center; /* Center-align header content */
 }
 
-
+/* Styling for navigation links inside the header */
 header .sivulink {
-    color: #FFCDB2;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
+    color: #FFCDB2; /* Light peach text color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Horizontal spacing between links */
+    font-weight: bold; /* Bold text for links */
 }
 
+/* Hover effect for navigation links */
 header .sivulink:hover {
-    color: #FFB4A2;
+    color: #FFB4A2; /* Change color on hover */
 }
 
+/* Button styling */
 button {
-    background-color: #E5989B;
-    border: none;
-    padding: 10px 20px;
-    color: #2f2d32;
-    font-size: 16px;
-    cursor: pointer;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 20px;
+    background-color: #E5989B; /* Light pink background */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding inside button */
+    color: #2f2d32; /* Dark gray text */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-family: 'Courier New', Courier, monospace; /* Monospaced font */
+    margin: 20px; /* Margin around the button */
 }
 
+/* Button hover effect */
 button:hover {
-    background-color: #FFB4A2;
+    background-color: #FFB4A2; /* Slightly lighter pink on hover */
 }
 
+/* General paragraph styling */
 p {
-    font-family: 'Georgia', serif;
-    margin: 10px 20px;
+    font-family: 'Georgia', serif; /* Serif font for paragraphs */
+    margin: 10px 20px; /* Margin around paragraphs */
 }
 
+/* Styling for small, stylized text */
 .smull {
-    color: #6a0101;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #6a0101; /* Dark red text color */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Serif font */
 }
 
+/* Center-aligned content box styling */
 .Questionnare_box_center {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    font-family: 'Courier New', Courier, monospace; /* Monospaced font */
+    text-align: center; /* Center-align text */
 }
 
+/* Image styling */
 img {
-    width: 20%;
-    height: auto;
-    margin: 10px;
+    width: 20%; /* Width set to 20% of container */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Margin around images */
 }
 
-
+/* Footer styling */
 footer {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    padding: 10px;
-    float: right;
-    border-color: black;
-    border-style: double;
-    background-color: rgb(0, 67, 67);
-    color: rgb(0, 152, 152);
+    font-family: 'Courier New', Courier, monospace; /* Monospaced font for footer text */
+    text-align: center; /* Center-align text */
+    padding: 10px; /* Padding inside footer */
+    float: right; /* Align footer to the right */
+    border-color: black; /* Black border color */
+    border-style: double; /* Double border style */
+    background-color: rgb(0, 67, 67); /* Dark teal background */
+    color: rgb(0, 152, 152); /* Teal text color */
 }
 
-
+/* Left-aligned image container styling */
 .fucking_pictures_of_cats_left {
-    float: left;
-    margin-right: 20px;
-    text-align: left;
+    float: left; /* Align container to the left */
+    margin-right: 20px; /* Space on the right */
+    text-align: left; /* Left-align text inside */
 }
 
+/* Right-aligned image container styling */
 .baby_liquid_and_honorable_mentions_right {
-    float: right;
-    margin-left: 20px;
-    text-align: right;
+    float: right; /* Align container to the right */
+    margin-left: 20px; /* Space on the left */
+    text-align: right; /* Right-align text inside */
 }
+
+/* Bold text styling with increased font size */
 .bold {
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: bold; /* Bold text */
+    font-size: 20px; /* Increase font size */
 }
+
+/* Styling for specific text color */
 .jaaah {
-    color: #6a0101;
+    color: #6a0101; /* Dark red color */
 }

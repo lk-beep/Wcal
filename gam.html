@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cat Dungeon Crawler</title>
+    <!-- Meta tags for character encoding and responsive design -->
+    <meta charset="UTF-8"> <!-- Ensures the webpage supports special characters -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the page responsive on different devices -->
+    
+    <!-- Title of the webpage displayed on the browser tab -->
+    <title>Cat Dungeon Crawler</title> 
+    
+    <!-- Link to external CSS file for styling the page -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Main game container -->
     <div id="game">
+        <!-- Main game title -->
         <h1>Cat Dungeon Crawler</h1>
+        
+        <!-- Story paragraph to describe the current state of the game -->
         <p id="story">You are in the starting room. It's quiet.</p>
+        
+        <!-- Paragraph to display the game status (such as player's health or progress) -->
         <p id="status"></p>
+        
+        <!-- Action buttons that the player can click to move in different directions -->
         <div id="action-buttons">
-            <button id="move-north">Move North</button>
-            <button id="move-south">Move South</button>
-            <button id="move-east">Move East</button>
-            <button id="move-west">Move West</button>
+            <button id="move-north">Move North</button> <!-- Button to move north -->
+            <button id="move-south">Move South</button> <!-- Button to move south -->
+            <button id="move-east">Move East</button> <!-- Button to move east -->
+            <button id="move-west">Move West</button> <!-- Button to move west -->
         </div>
+
+        <!-- Inventory section to display items the player has collected -->
         <p id="inventory"></p>
+
+        <!-- Exit buttons container, initially hidden -->
         <div id="exit-buttons" style="display: none;">
-            <button id="exit-game">Exit</button>
-            <button id="try-again">Try Again</button>
+            <button id="exit-game">Exit</button> <!-- Button to exit the game -->
+            <button id="try-again">Try Again</button> <!-- Button to restart the game -->
         </div>
+
+        <!-- Game over screen, initially hidden -->
         <div id="game-over-screen" style="display: none;">
-          <h2>Game Over!</h2>
-          <p>You were defeated. Better luck next time!</p>
-          <button id="try-again2">Try Again</button>
-          <button id="give-up">Give Up</button>
-      </div>      
+            <!-- Heading and message when the game is over -->
+            <h2>Game Over!</h2>
+            <p>You were defeated. Better luck next time!</p>
+            
+            <!-- Buttons to restart the game or give up -->
+            <button id="try-again2">Try Again</button> <!-- Button to restart the game -->
+            <button id="give-up">Give Up</button> <!-- Button to give up and exit -->
+        </div>      
     </div>
+
+    <!-- Link to external JavaScript file that will handle the game logic -->
     <script src="script.js"></script>
 </body>
 </html>

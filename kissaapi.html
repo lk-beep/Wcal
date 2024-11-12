@@ -1,36 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags for character encoding and responsive viewport settings -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page title -->
     <title>cat Generator</title>
-    <script src="java.js"></script>
-    <script src="secret.js"></script>
+    
+    <!-- Link to JavaScript files -->
+    <script src="java.js"></script> <!-- Main JavaScript for cat generation -->
+    <script src="secret.js"></script> <!-- JavaScript for any secret key combinations or functions -->
+    
+    <!-- Link to external CSS stylesheet -->
     <link rel="stylesheet" href="CSS.css">
 </head>
 <body>
+    <!-- Header section with navigation links -->
     <header>
+        <!-- Links to various pages for additional content on cats -->
         <a class="sivulink" href="Etusivu.html">Etusivu/frontpage</a>
         <a class="sivulink" href="hypoteesi.html">hypoteesi/hypothesis</a>
         <a class="sivulink" href="anotherapi.html">Kissa factoja/Cat facts</a>
         <a class="sivulink" href="Cat_media.html">Kissa Media/Cat Media</a>
     </header>
+    
+    <!-- Main heading and description of the page's purpose -->
     <h1>Random cat Generator</h1>
-    <p>Hello And Welcome! this here is a button that you can press. with each press you will get a random cat and it's breed.</p>
-    <p>here by pressing this button just like in the Fact generator you will be met with a cute cat picture and their breed for your troubles</p>
-    <p>we wanted to do this so <b>EVERYONE</b> can bask in the beauty and glory of the Feline race called Cats.</p>
-    <p>so no need to fear the kitties.</p>
+    <p>Hello And Welcome! this here is a button that you can press. with each press you will get a random cat and its breed.</p>
+    <p>Here, by pressing this button just like in the Fact generator, you will be met with a cute cat picture and their breed for your troubles</p>
+    <p>We wanted to do this so <b>EVERYONE</b> can bask in the beauty and glory of the Feline race called Cats.</p>
+    <p>So no need to fear the kitties.</p>
+
+    <!-- Button section to trigger the cat image generation -->
     <div class="button-container">
+        <!-- Button to call the `catimg()` function to fetch a random cat image -->
         <button onclick="catimg()">Just Click away!</button>
+        
+        <!-- Image element for displaying a hidden image when certain keys are pressed -->
         <img id="hidden-image" src="Kuvat/rart1.png" style="display: none;" alt="piiloitettu rotan kuva">
+        
+        <!-- Image element to display the fetched random cat image -->
         <img id="vaihtuva-kuva" src="Kuvat/rart1.png" style="display: none;" alt="vaihtuva kissa kuva">
+        
+        <!-- Paragraph element to display the breed information of the cat -->
         <p id="breed-info"></p>
     </div>
+
+    <!-- Footer section with legal disclaimer for content usage -->
     <footer>
         <p>
+            <!-- Disclaimer about fair use and non-commercial intent -->
             Disclaimer: Fair Use Notice
-            This project is created by students as part of a school assignment for educational and non-commercial purposes only. The images, texts, and other content included in this project may contain copyrighted material, used under the principles of "fair use" as outlined in Section 107 of the U.S. Copyright Act. This law allows limited use of copyrighted material for purposes such as criticism, commentary, education, research, and scholarship without needing permission from the copyright owner.
-            We do not claim ownership of any copyrighted materials used in this project. All copyrighted images and media are credited to their respective owners. If any copyright holder objects to the use of their material, please contact us, and we will remove the content in question promptly.
+            This project is created by students as part of a school assignment for educational and non-commercial purposes only. The images, texts, and other content included in this project may contain copyrighted material, used under the principles of "fair use" as outlined in Section 107 of the U.S. Copyright Act.
+            This law allows limited use of copyrighted material for purposes such as criticism, commentary, education, research, and scholarship without needing permission from the copyright owner.
+            We do not claim ownership of any copyrighted materials used in this project. All copyrighted images and media are credited to their respective owners. 
+            If any copyright holder objects to the use of their material, please contact us, and we will remove the content in question promptly.
         </p>
     </footer>
 </body>
